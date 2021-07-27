@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_ed7161</item>
+        <item name="colorPrimaryVariant">@color/color_efce4a</item>
+        <item name="colorOnPrimary">@color/color_white</item>
+        <item name="colorSecondary">@color/color_black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="TitleHeader" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:color">@color/color_ed7161</item>
+        <item name="android:textSize">@dimen/fontTitle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="Subtitle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:color">@color/color_cccccc</item>
+        <item name="android:textSize">@dimen/fontSubTitle</item>
+    </style>
+    <style name="ScrollBarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideInset</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_track</item>
+        <item name="android:scrollbarSize">1dp</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+    </style>
+
+</resources>
